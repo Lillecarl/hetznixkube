@@ -1,4 +1,4 @@
 {
   inputs = {};
-  outputs = { ... }: import ./default.nix { system = "x86_64-linux"; };
+  outputs = { ... }: (import ./default.nix { system = "aarch64-linux"; }).outputs;
 }

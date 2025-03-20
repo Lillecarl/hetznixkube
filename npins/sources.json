@@ -1,5 +1,20 @@
 {
   "pins": {
+    "disko": {
+      "type": "GitRelease",
+      "repository": {
+        "type": "GitHub",
+        "owner": "nix-community",
+        "repo": "disko"
+      },
+      "pre_releases": false,
+      "version_upper_bound": null,
+      "release_prefix": null,
+      "version": "v1.11.0",
+      "revision": "cdf8deded8813edfa6e65544f69fdd3a59fa2bb4",
+      "url": "https://api.github.com/repos/nix-community/disko/tarball/v1.11.0",
+      "hash": "13brimg7z7k9y36n4jc1pssqyw94nd8qvgfjv53z66lv4xkhin92"
+    },
     "nixpkgs": {
       "type": "Channel",
       "name": "nixpkgs-unstable",
